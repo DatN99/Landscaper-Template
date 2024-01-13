@@ -1,0 +1,35 @@
+<!-- ============================================ -->
+<!--                 Navigation                   -->
+<!-- ============================================ -->
+{% set navPages = collections.all | eleventyNavigation %}
+
+<div id="navigation">
+
+        <!--Main Nav-->
+        <nav id="navbar-menu" aria-label="main navigation">
+            <ul>
+                {%- for entry in navPages %}
+                    <li>
+                        <a class="navbar-link"
+                        {% if entry.url == page.url %} class="active" {% endif %}
+                        href="{{ entry.url }}"
+                    >
+                            {{ entry.title }}
+                        </a>
+                    </li>
+                {%- endfor %}
+            </ul>
+
+            <div class="navbar-info" >
+                <a class="navbar-phone" href="tel:703-494-3763" >(703) 494-3763</a>
+                <span class="navbar-address">
+                    14846 Persistence Dr
+                </span>
+                <span class="navbar-address">
+                    Woodbridge, VA 22191
+                </span>
+
+            </div>
+        </nav>
+
+</div>

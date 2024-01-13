@@ -1,0 +1,1118 @@
+/* HEADOH and HEADHTH - latin */
+/*-- -------------------------- -->
+<---           Hero             -->
+<--- -------------------------- -*/
+/* Mobile - 360px */
+@media only screen and (min-width: 0px) {
+  #hero {
+    background-image: url("/assets/images/landing_page_mobile_c1.webp");
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.775);
+    background-blend-mode: multiply;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    grid-gap: 4em;
+    padding-bottom: 3em;
+  }
+  #hero .cs-container {
+    margin-top: clamp(7rem, 27.95vw, 7rem);
+    display: inline-grid;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    grid-gap: 4em;
+  }
+  #hero .cs-container .cs-topper {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-family: "HPLHS";
+    max-width: clamp(5.23em, 15vw, 19em);
+    font-size: clamp(4.23em, 15vw, 8em);
+    font-weight: 500;
+    width: 100%;
+    color: var(--primary);
+    display: inherit;
+    justify-self: center;
+  }
+  #hero .cs-container .cs-topper .swirly {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 65%;
+    justify-self: center;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  #hero .cs-container .cs-container-reviews {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #hero .cs-container .cs-container-reviews .cs-container-reviews-h1 {
+    font-family: "HPLHS";
+    color: var(--primary);
+    font-size: clamp(1em, 7vw, 8em);
+    padding-bottom: var(--header2PaddingBottom);
+  }
+  #hero .cs-container .cs-container-reviews .cs-container-stars {
+    font-family: "HPLHS";
+    color: var(--decoration);
+    font-size: clamp(1em, 8vw, 6em);
+  }
+  #hero .cs-container .cs-container-reviews .cs-container-stars .cs-container-reviews-count {
+    font-family: "Inter";
+    color: var(--bodyTextColorWhite) !important;
+    font-size: var(--bodyFontSizeMobile) !important;
+  }
+  #hero .cs-container .cs-container-reviews .cs-container-reviews-link {
+    text-decoration: none;
+    color: var(--bodyTextColorWhite);
+  }
+  #hero .cs-container-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 2em;
+  }
+  #hero .cs-container-2 .cs-container-2-header {
+    font-family: "HPLHS";
+    color: var(--primary);
+    font-size: clamp(1em, 7vw, 8em);
+    padding-bottom: var(--header2PaddingBottom);
+  }
+  #hero .cs-container-2 .cs-container-2-body {
+    line-height: 1.5em;
+    padding-bottom: 1em;
+    font-size: var(--bodyFontSizeMobile);
+  }
+  #hero .cs-container-3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  #hero .cs-container-3 .cs-container-3-h1 {
+    font-family: "HPLHS";
+    color: var(--primary);
+    font-size: clamp(1em, 7vw, 8em);
+    padding-bottom: var(--header2PaddingBottom);
+  }
+  #hero .cs-container-3 .cs-container-3-body {
+    line-height: 1.5em;
+    font-size: var(--bodyFontSizeMobile);
+  }
+  .red_ferrari_div {
+    background-image: url("/assets/images/red_ferrari_2.webp");
+    background-size: cover;
+    height: 35vw;
+  }
+  .repair_img {
+    background-image: url("/assets/images/repair_img.webp");
+    background-size: cover;
+    height: 45vw;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 760px) {
+  #hero {
+    background-image: url("/assets/images/landing_page_mobile_c1.webp");
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.775);
+    background-blend-mode: multiply;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    grid-gap: 4em;
+    padding-bottom: 3em;
+  }
+  #hero .cs-container {
+    margin-top: clamp(7rem, 27.95vw, 7rem);
+    display: inline-grid;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    grid-gap: 6em;
+  }
+  #hero .cs-container .cs-topper {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-family: "HPLHS";
+    max-width: clamp(5.23em, 15vw, 19em);
+    font-size: clamp(4.23em, 15vw, 8em);
+    font-weight: 500;
+    width: 100%;
+    color: var(--primary);
+    display: inherit;
+    justify-self: center;
+  }
+  #hero .cs-container .cs-topper .swirly {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 65%;
+    justify-self: center;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  #hero .cs-container .cs-container-reviews .cs-container-reviews-h1 {
+    font-family: "HPLHS";
+    color: var(--primary);
+    font-size: clamp(1.23em, 6vw, 4em);
+  }
+  #hero .cs-container .cs-container-reviews .cs-container-stars {
+    font-family: "HPLHS";
+    color: var(--decoration);
+    font-size: clamp(1em, 8vw, 6em);
+  }
+  #hero .cs-container .cs-container-reviews .cs-container-stars .cs-container-reviews-count {
+    font-family: "Inter";
+    color: var(--bodyTextColorWhite) !important;
+    font-size: var(--bodyFontSize) !important;
+  }
+  #hero .cs-container .cs-container-reviews .cs-container-reviews-link {
+    text-decoration: none;
+    color: var(--bodyTextColorWhite);
+    font-size: clamp(1em, 3vw, 1.75em);
+  }
+  #hero .cs-container-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 5em;
+  }
+  #hero .cs-container-2 .cs-container-2-header {
+    font-family: "HPLHS";
+    color: var(--primary);
+    font-size: clamp(1.23em, 6vw, 4em);
+  }
+  #hero .cs-container-2 .cs-container-2-body {
+    line-height: 1.5em;
+    padding-bottom: 1em;
+    font-size: var(--bodyFontSizeMobile);
+  }
+  #hero .cs-container-3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  #hero .cs-container-3 .cs-container-3-h1 {
+    font-family: "HPLHS";
+    color: var(--primary);
+    font-size: clamp(1.23em, 6vw, 4em);
+  }
+  #hero .cs-container-3 .cs-container-3-body {
+    line-height: 1.5em;
+    font-size: var(--bodyFontSizeMobile);
+  }
+}
+/* Desktop Parallax Effect - 1300px */
+@media only screen and (min-width: 1024px) {
+  #hero {
+    background-image: url("/assets/images/landing_page_desktop_c1.webp");
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.779);
+    background-blend-mode: multiply;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    grid-gap: 4em;
+    padding-bottom: 3em;
+  }
+  #hero .cs-container-right-desktop {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 8em;
+    grid-gap: 5em;
+    max-width: 50%;
+    padding-left: 1em;
+    padding-right: clamp(2em, 5vw, 2.5em);
+  }
+  #hero .cs-container {
+    margin-top: 8em;
+    padding-left: clamp(2em, 5vw, 2.5em);
+    padding-right: 1em;
+    grid-gap: 6em;
+    text-align: center;
+    max-width: 50%;
+  }
+  #hero .cs-container .cs-topper {
+    font-family: "HPLHS";
+    width: clamp(5.23em, 15vw, 19em);
+    font-size: clamp(3.23em, 10vw, 10em);
+    color: var(--primary);
+    -ms-flex-line-pack: baseline;
+        align-content: baseline;
+  }
+  #hero .cs-container .cs-topper .swirly {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 65%;
+    justify-self: center;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  #hero .cs-container .cs-container-reviews .cs-container-reviews-h1 {
+    font-family: "HPLHS";
+    color: var(--primary);
+    font-size: clamp(1.23em, 6vw, 4em);
+  }
+  #hero .cs-container .cs-container-reviews .cs-container-stars {
+    font-family: "HPLHS";
+    color: var(--decoration);
+    font-size: clamp(1em, 8vw, 5em);
+  }
+  #hero .cs-container .cs-container-reviews .cs-container-stars .cs-container-reviews-count {
+    font-family: "Inter";
+    color: var(--bodyTextColorWhite) !important;
+    font-size: var(--bodyFontSize) !important;
+  }
+  #hero .cs-container .cs-container-reviews .cs-container-reviews-link {
+    text-decoration: none;
+    color: var(--bodyTextColorWhite);
+    font-size: clamp(1em, 3vw, 1.75em);
+  }
+  #hero .cs-container-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  #hero .cs-container-2 .cs-container-2-header {
+    font-family: "HPLHS";
+    color: var(--primary);
+    font-size: clamp(1.23em, 6vw, 4em);
+  }
+  #hero .cs-container-2 .cs-container-2-body {
+    line-height: 1.5em;
+    padding-bottom: 1em;
+    font-size: var(--bodyFontSize);
+  }
+  #hero .cs-container-3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  #hero .cs-container-3 .cs-container-3-h1 {
+    font-family: "HPLHS";
+    color: var(--primary);
+    font-size: clamp(1.23em, 6vw, 4em);
+  }
+  #hero .cs-container-3 .cs-container-3-body {
+    line-height: 1.5em;
+    font-size: var(--bodyFontSize);
+  }
+}
+/*-- -------------------------- -->
+<---          Services          -->
+<--- -------------------------- -*/
+/* Mobile */
+@media only screen and (min-width: 0em) {
+  /*-- -------------------------- -->
+    <---     MID SIZE Services      -->
+    <--- -------------------------- -*/
+  /*-- -------------------------- -->
+    <---     MID - LARGE SIZE Services    -->
+    <--- -------------------------- -*/
+}
+@media only screen and (min-width: 0em) and (max-width: 1070px) {
+  .services {
+    background-color: var(--primary);
+  }
+  .services .services-content {
+    display: inline-grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 1.5em;
+  }
+  .services .services-content .services-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-bottom: 4em;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .services .services-content .services-header .services-header-h1 {
+    font-family: "HPLHS";
+    font-size: var(--header2);
+    color: var(--headerColorBlack);
+    padding-bottom: 0.25em;
+  }
+  .services .services-content .services-list {
+    display: inline-grid;
+    text-align: center;
+  }
+  .services .services-content .services-list .card {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .services .services-content .services-list .card .card-img {
+    height: 65px;
+    width: 65px;
+  }
+  .services .services-content .services-list .card .card-img-cr {
+    height: 60px;
+    width: 85px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .services .services-content .services-list .card .card-img-glass {
+    height: 50px;
+    width: 100px;
+  }
+  .services .services-content .services-list .card h2 {
+    font-family: "HPLHS";
+    font-weight: 500;
+    font-size: clamp(1.23em, 6vw, 4em);
+    color: var(--headerColorBlack);
+    padding-top: 0.5em;
+    padding-bottom: 0.3em;
+  }
+  .services .services-content .services-list .card p {
+    font-family: "Inter" !important;
+    font-size: var(--bodyFontSizeMobile);
+    padding-bottom: 3em;
+    max-width: 100%;
+  }
+  .services .services-content .services-list .card-1 {
+    opacity: 0;
+  }
+  .services .services-content .services-list .card-2 {
+    opacity: 0;
+  }
+  .services .services-content .services-list .card-3 {
+    opacity: 0;
+  }
+  .services .services-content .services-list .card-4 {
+    opacity: 0;
+  }
+  .services .services-content .services-list .card-5 {
+    opacity: 0;
+  }
+  .services .services-content .services-list .card-6 {
+    opacity: 0;
+  }
+  .services .services-content .services-list .card-animation {
+    opacity: 1;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+  }
+  .ratings-content {
+    padding: 1.5em;
+  }
+  .ratings-content .ratings-header {
+    display: inline-grid;
+  }
+  .ratings-content .ratings-header .ratings-header-h1 {
+    font-family: "HPLHS";
+    font-size: var(--header2);
+    color: var(--bodyTextColorWhite);
+    display: inline-block;
+    min-width: 50%;
+    padding-bottom: var(--header2PaddingBottom);
+  }
+  .ratings-content .ratings-header .ratings-header-body {
+    font-family: "Inter";
+    line-height: 1.5rem;
+    font-size: var(--bodyFontSizeMobile);
+    line-height: var(--bodyLineHeight);
+  }
+  .ratings-content .slideshow .slides {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 3em;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    grid-gap: 1em;
+  }
+  .ratings-content .slideshow .slides .slide-img {
+    display: none;
+    height: auto;
+    width: auto;
+  }
+  .ratings-content .slideshow .slides .slide-stars {
+    margin-bottom: 1vh;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: clamp(10rem, 20vw, 13rem);
+  }
+  .ratings-content .slideshow .slides .slides-body {
+    display: inline-grid;
+    padding: 1.75em;
+    background-color: var(--primary);
+    -ms-flex-line-pack: baseline;
+        align-content: baseline;
+  }
+  .ratings-content .slideshow .slides .slides-body .slide-text {
+    font-family: "Inter" !important;
+    color: var(--headerColorBlack);
+    line-height: var(--bodyLineHeight);
+    font-size: var(--bodyFontSizeMobile);
+  }
+  .ratings-content .slideshow .slides .slides-body .slide-author {
+    font-family: "HPLHS";
+    font-size: clamp(1.23em, 6vw, 3em);
+    color: var(--headerColorBlack);
+    line-height: 2em;
+  }
+  .ratings-content .slideshow .slide-1 {
+    display: inherit;
+    opacity: 0;
+  }
+  .ratings-content .slideshow .slide-2 {
+    display: inherit;
+    opacity: 0;
+  }
+  .ratings-content .slideshow .slide-3 {
+    display: inherit;
+    opacity: 0;
+  }
+  .ratings-content .slideshow .slide-4 {
+    display: inherit;
+    opacity: 0;
+  }
+  .ratings-content .slideshow .card-animation {
+    opacity: 1;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+  }
+  #final-call {
+    padding: 1.5em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    grid-gap: 2em;
+  }
+  #final-call .final-call-div1 {
+    max-width: 100%;
+    -ms-flex-item-align: center;
+        align-self: center;
+  }
+  #final-call .final-call-div1 .final-call-div1-h1 {
+    font-family: "HPLHS";
+    font-size: clamp(1.23em, 12.7vw, 5em);
+    color: var(--primary);
+    line-height: 1em;
+    font-weight: 500;
+  }
+  #final-call .final-call-div2 {
+    max-width: 100%;
+    -ms-flex-item-align: center;
+        align-self: center;
+  }
+  #final-call .final-call-div2 .final-call-div2-body {
+    font-family: "Inter";
+    font-size: var(--bodyFontSize);
+    color: var(--bodyTextColor);
+    line-height: var(--bodyLineHeight);
+  }
+}
+@media only screen and (min-width: 0em) and (max-width: 1070px) and (min-width: 760px) and (max-width: 1024px) {
+  .services .services-content .services-list .card p {
+    font-family: "Inter" !important;
+    font-size: var(--bodyFontSizeMobile);
+    padding-bottom: 3em;
+    max-width: 80% !important;
+  }
+}
+/* Inbetween */
+/* Large Desktop */
+@media only screen and (min-width: 1070px) {
+  .services {
+    background-color: var(--primary);
+  }
+  .services .services-content {
+    display: inline-grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 6.125em;
+  }
+  .services .services-content .services-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-bottom: 4em;
+  }
+  .services .services-content .services-header .services-header-h1 {
+    font-family: "HPLHS";
+    font-size: clamp(1.23em, 6vw, 6em);
+    color: var(--headerColorBlack);
+  }
+  .services .services-content .services-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 4em;
+  }
+  .services .services-content .services-list .card {
+    width: 90%;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  .services .services-content .services-list .card .card-img {
+    height: 100px;
+    width: 100px;
+  }
+  .services .services-content .services-list .card .card-img-cr {
+    height: 100px;
+    width: 130px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .services .services-content .services-list .card .card-img-glass {
+    height: 100px;
+    width: 150px;
+  }
+  .services .services-content .services-list .card h2 {
+    font-family: "HPLHS";
+    font-weight: 500;
+    font-size: clamp(1.23em, 4vw, 2em);
+    color: var(--headerColorBlack);
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+  .services .services-content .services-list .card p {
+    font-family: "Inter" !important;
+    font-size: var(--bodyFontSize);
+  }
+  .services .services-content .services-list .card-1 {
+    opacity: 0;
+  }
+  .services .services-content .services-list .card-2 {
+    opacity: 0;
+  }
+  .services .services-content .services-list .card-3 {
+    opacity: 0;
+  }
+  .services .services-content .services-list .card-4 {
+    opacity: 0;
+  }
+  .services .services-content .services-list .card-5 {
+    opacity: 0;
+  }
+  .services .services-content .services-list .card-6 {
+    opacity: 0;
+  }
+  .services .services-content .services-list .card-animation {
+    opacity: 1;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+  }
+  .ratings-content {
+    padding: 6.125em;
+  }
+  .ratings-content .ratings-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .ratings-content .ratings-header .ratings-header-h1 {
+    font-family: "HPLHS";
+    font-size: clamp(1.23em, 6vw, 6em);
+    color: var(--bodyTextColorWhite);
+    display: inline-block;
+    min-width: 50%;
+  }
+  .ratings-content .ratings-header .ratings-header-body {
+    font-family: "Inter" !important;
+    line-height: 1.5rem;
+    font-size: var(--bodyFontSize);
+    line-height: var(--bodyLineHeight);
+  }
+  .ratings-content .slideshow .slides {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 3em;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    grid-gap: 1em;
+  }
+  .ratings-content .slideshow .slides .slide-stars {
+    margin-bottom: 1vh;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .ratings-content .slideshow .slides .slides-body {
+    display: inline-grid;
+    padding: 2.5em;
+    background-color: var(--primary);
+    -ms-flex-line-pack: baseline;
+        align-content: baseline;
+    width: 300%;
+  }
+  .ratings-content .slideshow .slides .slides-body .slide-text {
+    font-family: "Inter";
+    color: var(--headerColorBlack);
+    line-height: var(--bodyLineHeight);
+    font-size: var(--bodyFontSize);
+  }
+  .ratings-content .slideshow .slides .slides-body .slide-author {
+    font-family: "HPLHS";
+    font-size: clamp(1.23em, 6vw, 3em);
+    color: var(--headerColorBlack);
+    line-height: 2em;
+  }
+  .ratings-content .slideshow .slide-img {
+    display: none;
+  }
+  .ratings-content .slideshow .slide-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    opacity: 0;
+  }
+  .ratings-content .slideshow .slide-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    opacity: 0;
+  }
+  .ratings-content .slideshow .slide-3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    opacity: 0;
+  }
+  .ratings-content .slideshow .slide-4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    opacity: 0;
+  }
+  .ratings-content .slideshow .card-animation {
+    opacity: 1;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+  }
+  #final-call {
+    padding: 6.125em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    grid-gap: 2em;
+  }
+  #final-call .final-call-div1 {
+    max-width: 70%;
+    -ms-flex-item-align: center;
+        align-self: center;
+  }
+  #final-call .final-call-div1 .final-call-div1-h1 {
+    font-family: "HPLHS";
+    font-size: clamp(3.23em, 11.1vw, 8em);
+    color: var(--primary);
+    line-height: 1em;
+    font-weight: 500;
+  }
+  #final-call .final-call-div2 {
+    max-width: 70%;
+    -ms-flex-item-align: center;
+        align-self: center;
+  }
+  #final-call .final-call-div2 .final-call-div2-body {
+    font-family: "Inter";
+    font-size: var(--bodyFontSize);
+    color: var(--bodyTextColorWhite);
+    line-height: var(--bodyLineHeight);
+  }
+}
+@media only screen and (min-width: 1070px) and (min-width: 1420px) {
+  .ratings-content .slideshow .slide-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+}
+/* Mobile - 360px */
+@media only screen and (min-width: 0em) {
+  #intro {
+    display: none;
+  }
+  #intro_mobile .intro-top-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  #intro_mobile .intro-detailing {
+    background-color: var(--primary);
+    display: inline-grid;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 3em;
+  }
+  #intro_mobile .intro-detailing .intro-text-h1 {
+    font-family: "HPLHS";
+    font-size: var(--header2);
+    color: var(--headerColorBlack);
+    padding-bottom: var(--header2PaddingBottom);
+  }
+  #intro_mobile .intro-detailing .intro-text-body {
+    font-family: "Inter";
+    color: var(--bodyColorBlack);
+    padding-bottom: 3em;
+    line-height: var(--bodyLineHeight);
+  }
+}
+@media only screen and (min-width: 760px) {
+  #intro_mobile {
+    display: none;
+  }
+  #intro {
+    padding-top: 2em;
+    padding-bottom: 5em;
+    background-color: var(--primary);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #intro .intro-right {
+    width: 60%;
+    display: inline-grid;
+  }
+  #intro .intro-right .intro-right-text {
+    display: inline-grid;
+    justify-items: left;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  #intro .intro-right .intro-right-text .intro-right-text-h1 {
+    font-family: "HPLHS";
+    color: var(--headerColorBlack);
+    font-size: clamp(1.23em, 6vw, 6em);
+    padding-bottom: var(--header2PaddingBottom);
+  }
+  #intro .intro-right .intro-right-text .intro-text-body {
+    font-family: "Inter";
+    color: var(--bodyColorBlack);
+    padding-bottom: 1em;
+    font-size: var(--bodyFontSize);
+    margin-right: 1em;
+    line-height: var(--bodyLineHeight);
+  }
+  #intro .intro-right .intro-right-img {
+    background-image: url("/assets/images/intro_audi.webp");
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 33vw;
+    width: 100%;
+  }
+  #intro .intro-left {
+    display: inline-grid;
+    width: 35%;
+  }
+  #intro .intro-left .intro-left-text {
+    justify-self: center;
+    max-width: 70%;
+    display: inline-grid;
+    justify-items: center;
+    margin-top: 2em;
+    font-size: var(--bodyFontSize);
+  }
+  #intro .intro-left .intro-left-text .intro-left-text-h1 {
+    font-family: "HPLHS";
+    color: var(--headerColorBlack);
+    font-size: clamp(1.23em, 4vw, 6em);
+    justify-self: left;
+    padding-bottom: var(--header2PaddingBottom);
+  }
+  #intro .intro-left .intro-left-text .intro-text-body {
+    font-family: "Inter";
+    color: var(--bodyColorBlack);
+    font-size: var(--bodyFontSize);
+    line-height: var(--bodyLineHeight);
+  }
+  #intro .intro-left .intro-left-img-txt {
+    display: inline-block;
+    font-family: "HPLHS";
+    color: var(--primary);
+    font-size: clamp(1.23em, 6vw, 3em);
+    padding-left: 0.3em;
+    padding-top: 0.3em;
+  }
+  #intro .intro-left .intro-left-img {
+    background-image: url("/assets/images/tan_profile.webp");
+    height: 46vw;
+    background-size: cover;
+  }
+}
+@media only screen and (min-width: 760px) and (max-width: 1020px) {
+  #intro .intro-right {
+    width: 60%;
+    display: inline-grid;
+  }
+  #intro .intro-right .intro-right-text {
+    display: inline-grid;
+    justify-items: left;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  #intro .intro-right .intro-right-text .intro-right-text-h1 {
+    font-family: "HPLHS";
+    color: var(--headerColorBlack);
+    font-size: var(--subHeader1);
+    padding-bottom: var(--header2PaddingBottom);
+  }
+  #intro .intro-right .intro-right-text .intro-text-body {
+    font-family: "Inter";
+    color: var(--bodyColorBlack);
+    padding-bottom: 1em;
+    font-size: var(--bodyFontSizeMobile);
+    margin-right: 1em;
+    line-height: var(--bodyLineHeight);
+  }
+  #intro .intro-right .intro-right-img {
+    background-image: url("/assets/images/intro_audi.webp");
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 33vw;
+    width: 100%;
+  }
+  #intro .intro-left {
+    display: inline-grid;
+    width: 35%;
+  }
+  #intro .intro-left .intro-left-text {
+    justify-self: center;
+    max-width: 80%;
+    display: inline-grid;
+    justify-items: center;
+    margin-top: 2em;
+  }
+  #intro .intro-left .intro-left-text .intro-left-text-h1 {
+    font-family: "HPLHS";
+    color: var(--headerColorBlack);
+    font-size: var(--subHeader1);
+    justify-self: left;
+    padding-bottom: var(--header2PaddingBottom);
+  }
+  #intro .intro-left .intro-left-text .intro-text-body {
+    font-family: "Inter";
+    color: var(--bodyColorBlack);
+    font-size: var(--bodyFontSizeMobile);
+    line-height: var(--bodyLineHeight);
+  }
+  #intro .intro-left .intro-left-img-txt {
+    display: inline-block;
+    font-family: "HPLHS";
+    color: var(--primary);
+    font-size: clamp(1em, 4vw, 4em);
+    padding-left: 0.3em;
+    padding-top: 0.3em;
+  }
+  #intro .intro-left .intro-left-img {
+    background-image: url("/assets/images/tan_profile.webp");
+    height: 46vw;
+    background-size: cover;
+  }
+}
+/* Tablet - 768px */
+/* Desktop Parallax Effect - 1300px */
+@media only screen and (min-width: 81.25em) {
+  #intro {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* creates parallax effect on background image */
+  }
+}
+@-webkit-keyframes wipe-enter {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes wipe-enter {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes translate-left-right {
+  0% {
+    -webkit-transform: translateX(110%);
+            transform: translateX(110%);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+    opacity: 1;
+  }
+}
+@keyframes translate-left-right {
+  0% {
+    -webkit-transform: translateX(110%);
+            transform: translateX(110%);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+    opacity: 1;
+  }
+}

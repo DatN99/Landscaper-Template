@@ -1,0 +1,414 @@
+/* Mobile */
+@media only screen and (min-width: 0em) {
+  #services-hero {
+    padding-bottom: 0rem;
+  }
+  #services-hero .shero-background {
+    padding-top: 0em !important;
+    background-image: url("/assets/images/services_background_vertical-c1.webp");
+    height: 45rem;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.87);
+    background-blend-mode: multiply;
+  }
+  #services-hero .shero-background .shero-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: clamp(7rem, 27.95vw, 7rem);
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #services-hero .shero-background .shero-content .cs-topper {
+    font-size: clamp(4.23em, 15vw, 8em);
+    max-width: clamp(5.23em, 15vw, 19em);
+    line-height: 1em;
+    text-transform: uppercase;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-item-align: center;
+        align-self: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    letter-spacing: -1%;
+    font-weight: 500;
+    color: var(--primary);
+    margin-bottom: 3rem;
+    font-family: "HPLHS";
+    width: 100%;
+  }
+  #services-hero .shero-background .shero-content .cs-topper .swirly {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  #services-hero .shero-background .shero-content .shero-intro {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+  }
+  #services-hero .shero-background .shero-content .shero-intro .shero-intro-h1 {
+    font-family: "HPLHS";
+    color: var(--primary);
+    font-size: var(--subHeader1);
+    padding-bottom: var(--header2PaddingBottom);
+  }
+  #services-hero .shero-background .shero-content .shero-intro .shero-intro-body {
+    font-family: "Inter";
+    color: var(--bodyTextColor);
+    font-size: var(--bodyFontSize);
+    line-height: var(--bodyLineHeight);
+  }
+  #services-list {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: var(--primary);
+  }
+  #services-list .services-list-div {
+    padding-left: 1em;
+    padding-right: 1em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    grid-gap: 8em;
+  }
+  #services-list .services-list-div .services-list-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  #services-list .services-list-div .services-list-item .services-list-img {
+    padding-bottom: 1em;
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin-bottom: 1em;
+  }
+  #services-list .services-list-div .services-list-item .services-list-h1 {
+    font-family: "HPLHS";
+    font-size: var(--header2);
+    color: var(--headerColorBlack);
+    padding-bottom: 0.25em;
+  }
+  #services-list .services-list-div .services-list-item .services-list-body {
+    font-family: "Inter";
+    color: var(--bodyColorBlack);
+    font-size: var(--bodyFontSizeMobile);
+    line-height: var(--bodyLineHeight);
+    padding-bottom: 1em;
+  }
+  #services-list .services-list-div .services-list-item .services-body-div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #services-list .services-list-div .services-list-item .services-list-button {
+    -ms-flex-item-align: center;
+        align-self: center;
+    width: 100%;
+    font-size: var(--buttonFontSizeMobile);
+  }
+  #services-list .services-list-div .services-1 {
+    opacity: 0;
+  }
+  #services-list .services-list-div .services-2 {
+    opacity: 0;
+  }
+  #services-list .services-list-div .services-3 {
+    opacity: 0;
+  }
+  #services-list .services-list-div .services-4 {
+    opacity: 0;
+  }
+  #services-list .services-list-div .services-5 {
+    opacity: 0;
+  }
+  #services-list .services-list-div .services-6 {
+    opacity: 0;
+    padding-bottom: 5em;
+  }
+  #services-list .services-list-div .services-animation {
+    opacity: 1 !important;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+  }
+}
+/* Large Tablet */
+@media only screen and (min-width: 760px) {
+  #services-hero .shero-background {
+    padding-top: 0em !important;
+    background-image: url("/assets/images/services_background_vertical-c1.webp");
+    height: 50rem;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.87);
+    background-blend-mode: multiply;
+  }
+  #services-hero .shero-background .shero-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: clamp(7rem, 27.95vw, 7rem);
+    padding-left: clamp(2rem, 5vw, 2.5rem);
+    padding-right: clamp(2rem, 5vw, 2.5rem);
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #services-hero .shero-background .shero-content .cs-topper {
+    font-size: clamp(4.23em, 15vw, 8em);
+    line-height: 1em;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: -1%;
+    font-weight: 500;
+    color: var(--primary);
+    margin-bottom: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: "HPLHS";
+    width: 100%;
+    padding-bottom: 0.5em;
+  }
+  #services-hero .shero-background .shero-content .cs-topper .swirly {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 95%;
+    justify-self: center;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  #services-hero .shero-background .shero-content .shero-intro {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #services-hero .shero-background .shero-content .shero-intro .shero-intro-h1 {
+    font-family: "HPLHS";
+    color: var(--primary);
+    font-size: var(--subHeader1);
+    padding-bottom: var(--header2PaddingBottom);
+  }
+  #services-hero .shero-background .shero-content .shero-intro .shero-intro-body {
+    font-family: "Inter";
+    color: var(--bodyTextColor);
+    font-size: var(--bodyFontSize);
+    line-height: var(--bodyLineHeight);
+  }
+}
+/* Large Desktop */
+@media only screen and (min-width: 1200px) {
+  #services-hero {
+    padding-top: 0em;
+  }
+  #services-hero .shero-background {
+    padding-top: 0em !important;
+    background-image: url("/assets/images/services_background_desktop.webp");
+    height: 57rem;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.87);
+    background-blend-mode: multiply;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #services-hero .shero-background .shero-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 8rem;
+    padding-left: clamp(2rem, 5vw, 2.5rem);
+    padding-right: clamp(2rem, 5vw, 2.5rem);
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #services-hero .shero-background .shero-content .cs-topper {
+    font-size: clamp(3.23em, 10vw, 10em);
+    line-height: 1em;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: -1%;
+    font-weight: 500;
+    color: var(--primary);
+    margin-bottom: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-family: "HPLHS";
+    width: 100%;
+    -ms-flex-line-pack: baseline;
+        align-content: baseline;
+  }
+  #services-hero .shero-background .shero-content .cs-topper .swirly {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 98%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  #services-hero .shero-background .shero-content .shero-intro {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-width: 80%;
+    margin-left: 3em;
+    text-align: center;
+  }
+  #services-hero .shero-background .shero-content .shero-intro .shero-intro-h1 {
+    font-family: "HPLHS";
+    color: var(--primary);
+    font-size: var(--subHeader1);
+    padding-bottom: var(--header2PaddingBottom);
+  }
+  #services-hero .shero-background .shero-content .shero-intro .shero-intro-body {
+    font-family: "Inter";
+    color: var(--bodyTextColor);
+    font-size: var(--bodyFontSize);
+    line-height: var(--bodyLineHeight);
+  }
+  #services-list {
+    padding-top: 6.125rem;
+    padding-bottom: 6.125rem;
+    background-color: var(--primary);
+  }
+  #services-list .services-list-div {
+    padding-left: 6.125rem;
+    padding-right: 6.125rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    grid-gap: 8em;
+  }
+  #services-list .services-list-div .services-list-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    text-align: left;
+  }
+  #services-list .services-list-div .services-list-item .services-list-img {
+    margin-left: 1em;
+    padding-bottom: 0em;
+    margin-bottom: 0em;
+    width: 55%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    -ms-flex-item-align: center;
+        align-self: center;
+  }
+  #services-list .services-list-div .services-list-item .services-list-h1 {
+    font-family: "HPLHS";
+    font-size: var(--header2);
+    color: var(--headerColorBlack);
+    padding-bottom: 0.25em;
+  }
+  #services-list .services-list-div .services-list-item .services-list-body {
+    font-family: "Inter";
+    color: var(--bodyColorBlack);
+    font-size: var(--bodyFontSizeMobile);
+    line-height: var(--bodyLineHeight);
+    padding-bottom: 1em;
+  }
+  #services-list .services-list-div .services-list-item .services-body-div {
+    display: inline-grid;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 80%;
+  }
+  #services-list .services-list-div .services-list-item .services-list-button {
+    -ms-flex-item-align: end;
+        align-self: end;
+    justify-self: start;
+    width: 50%;
+    font-size: var(--buttonFontSize);
+  }
+  #services-list .services-list-div .services-1 {
+    opacity: 0;
+  }
+  #services-list .services-list-div .services-2 {
+    opacity: 0;
+  }
+  #services-list .services-list-div .services-3 {
+    opacity: 0;
+  }
+  #services-list .services-list-div .services-4 {
+    opacity: 0;
+  }
+  #services-list .services-list-div .services-5 {
+    opacity: 0;
+  }
+  #services-list .services-list-div .services-6 {
+    opacity: 0;
+  }
+  #services-list .services-list-div .services-animation {
+    opacity: 1 !important;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+  }
+}
