@@ -7,7 +7,7 @@
 
         <!--Main Nav-->
         <nav id="navbar-menu" aria-label="main navigation">
-            <ul>
+            {# <ul>
                 {%- for entry in navPages %}
                     <li>
                         <a class="navbar-link"
@@ -18,16 +18,30 @@
                         </a>
                     </li>
                 {%- endfor %}
-            </ul>
+            </ul> #}
 
             <div class="navbar-info" >
-                <a class="navbar-phone" href="tel:703-494-3763" >(703) 494-3763</a>
-                <span class="navbar-address">
-                    14846 Persistence Dr
-                </span>
-                <span class="navbar-address">
-                    Woodbridge, VA 22191
-                </span>
+                <div class="navbar-item">
+                    <img class="navbar-svg"src = "/assets/svgs/house-solid.svg" alt="House SVG" />
+                    <span class="navbar-address">
+                        14846 Persistence Dr
+                    </span>
+                    <span class="navbar-address">
+                        , Woodbridge, VA 22191
+                    </span>
+                </div>
+                <div class="navbar-item">
+                    <img class="navbar-svg"src = "/assets/svgs/phone-solid.svg" alt="House SVG" />
+                    <a class="navbar-phone" href="tel:703-494-3763" >
+                        (703) 494-3763
+                    </a>
+                </div>
+                <div class="navbar-item">
+                    <img class="navbar-svg"src = "/assets/svgs/clock-solid.svg" alt="House SVG" />
+                    <span>
+                        Mon-Fri: 9:00 am - 5:00 pm
+                    </span>
+                </div>
 
             </div>
         </nav>
